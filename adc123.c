@@ -8,6 +8,8 @@ sbit rs=P3^4;
 sbit rw=P3^5;
 sbit en=P3^6;
 
+
+
 void delay(int c);
 void init(void);
 void cmd(char ch);
